@@ -7,62 +7,217 @@
 	<title>Capstone 1</title>
 
 	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
 </head>
 <body>
 	<!-- start of navbar -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<section id="navbar">
+		<nav class="navbar navbar-expand-lg navbar-dark">
 		  <div class="container-fluid">
-		    <a class="navbar-brand" href="#">Navbar</a>
+		    <a class="navbar-brand" href="#">
+		    	<img style="height:30px;" src="logo.png">
+		    </a>
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		      <span class="navbar-toggler-icon"></span>
 		    </button>
 		    <div class="collapse navbar-collapse" id="navbarNav">
 		      <ul class="navbar-nav ms-auto">
 		        <li class="nav-item">
-		          <a class="nav-link" aria-current="page" href="#">Home</a>
+		          <a class="nav-link" aria-current="page" href="#jumbotron">Home</a>
 		        </li>
 		        <li class="nav-item">
-		          <a class="nav-link" href="#">About</a>
+		          <a class="nav-link" href="#about-me">About</a>
 		        </li>
 		        <li class="nav-item">
-		          <a class="nav-link" href="#">Projects</a>
+		          <a class="nav-link" href="#my-projects">Projects</a>
 		        </li>
 		        <li class="nav-item">
-		          <a class="nav-link" href="#">Contact</a>
+		          <a class="nav-link" href="#contact-me">Contact</a>
 		        </li>
 		      </ul>
 		    </div>
 		  </div>
 		</nav>
+	</section>
 	<!-- end of navbar -->
 
 	<!-- start of jumbotron -->
-		<div class="jumbotron jumbotron-fluid text-center p-5">
+	<section id="jumbotron">
+		<div class="jumbotron text-center p-5">
 		  <div class="container">
-		    <h1 class="display-4">Hi, I'm Kay Roque!</h1>
-		    <h1 class="display-5">Web Developer</h1>
-		    <p class="lead">Together, we can build amazing things.</p>
-		    <a class="btn btn-primary btn-lg" href="#" role="button">View My Portfolio</a>
+		  	<div class="row">
+		  		<div class="d-flex flex-column align-items-center justify-content-center col-lg-6">
+				    <h1 class="display-4">Hi, I'm Kay Roque!</h1>
+				    <h1 class="display-5">Web Developer</h1>
+				    <p class="lead">Together, we can build amazing things.</p>
+				    <a class="btn btn-primary btn-lg mt-3" href="#my-projects" role="button">Learn more about what I do.</a>		   
+			    </div>
+			    <div class="col-lg-6">
+			  		<img class="img-fluid" src="banner.jpg">		  	
+			  	</div>
+			 </div>
 		  </div>
 		</div>
+	</section>
 	<!-- end of jumbotron -->
 
 	<!-- About Me -->
-	<div class="container text-center">	
-		<h1>About Me</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. </p>
+	<div id="about-me" class="container-fluid text-center p-4">	
+		<h2 class="display-6">About Me</h2>
+		<p>Creative web developer dedicated to building and optimizing the performance of user-centric, high-impact websites for nationwide, F500 and global companies. Leverage technical, analytical and problem-solving skills to create dynamic, high-speed websites, apps and platforms fueling competitive advantage and revenue growth.</p>
 		<div class="row">
-			<div class="col-6">
-				Col 1
+			<div class="col-md-4">
+				<img class="img-fluid" src="kay.png" style="height: 400px;">
 			</div>
-			<div class="col-6">
-				Col 2
+			<div class="col-md-8">
+				<div class="row p-5">
+					<h3>Skills</h3>
+				</div>
+				<div class="row p-5">
+					<h3>Education</h3>
+					<p>Batangas State University |
+					Bachelor of Science in Business Administration major in Business Economics</p>
+				</div>			
+					
 			</div>
 		</div>
 	</div>
+	<!-- end of About Me -->
 
+	<!-- My Projects -->
+	<div id="my-projects" class="container-fluid text-center">	
+		<h2 class="display-6">My Projects</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. </p>
+		<div class="row">
+			<div class="col-md-4 p-3">
+				<h4 class="p-3">Capstone Project 1</h4>
+				<img class="img-fluid" src="web-developer.png">
+				<h3 class="display-6 p-3">Web Developer Portfolio</h3>
+				<p>
+					A web developer portfolio is the thing that contains your web developer projects. In addition to projects, it contains multiple other components like contact form, bio, and links to source code.
+				</p>
+			</div>
+			<div class="col-md-4 p-3">
+				<h4 class="p-3">Capstone Project 2</h4>
+				<img class="img-fluid" style="height: 200px;" src="e-commerce.png">
+				<h3 class="display-6 p-3">E-Commerce API</h3>
+				<p>
+					eCommerce APIs help developers transfer information from one software to another and then use this data in a single user interface. APIs work as an extensible platform that integrates with various solutions so companies can take advantage of their existing functionality without building features from scratch.					
+				</p>
+			</div>
+			<div class="col-md-4 p-3">
+				<h4 class="p-3">Capstone Project 3</h4>
+				<img class="img-fluid" style="height: 200px;" src="react.png">
+				<h3 class="display-6 p-3">E-Commerce with React Front End</h3>
+				<p>	
+					React facilitates the creation of front-end website “Components,” or features responsible for UI functionality, such as buttons or data calls. These react “Components” are modular pieces of code that can be reused across multiple ecommerce apps or websites and in multiple locations.
+				</p>
+			</div>	
+					
+			</div>
+		</div>
+	</div>
+	<!-- end of My Projects -->
 
+	<!-- Contact -->
+	<div id="contact-me" class="container-fluid text-center p-4">	
+		<h1 class="display-6">Contact</h1>
+		<p>Got questions? Send me a message! </p>
+		<div class="row">
+			<div class="col-md-6 p-3">	
+				<form id="contact-form" class="p-3 container-fluid">
+					<div class="form-group mt-3">
+						<label for="text-name">Name:</label>
+						<input type="text" name="name" id="text-name" class="form-control" placeholder="Your Name">
+					</div>
+					 <div class="form-group mt-3">
+					    <label for="text-email">Email Address:</label>
+					    <input type="email" name="email" id="text-email" class="form-control" placeholder="name@example.com">
+					 </div>
+					 <div class="form-group mt-3">
+					    <label for="text-number">Contact Number:</label>
+					    <input type="text" name="number" id="text-number" class="form-control" placeholder="+63 900 000 0000">
+					 </div>
+					  <div class="form-group mt-3">
+					    <label for="text-txtarea">Message:</label>
+					    <textarea class="form-control" id="text-txtarea" row="8">
+
+					    </textarea>
+					  </div>	  
+
+				<!-- Button trigger modal -->
+						<button id="button-modal" type="button" class="btn btn-primary bg-dark text-white mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Send Message
+						</button>
+						<div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  		<div class="modal-dialog">
+					    		<div class="modal-content">
+					      		<div class="modal-header">
+					       		 <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting us!</h5>
+					        		<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					      		</div>
+					      		<div class="modal-body">
+					        		Message successfully sent.
+					      		</div>
+					      		<div class="modal-footer">
+					      		 	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					      		</div>
+					    		</div>
+					  		</div>
+						</div>
+					</form>
+			</div>
+			<div class="col-md-6 p-3">	
+				<iframe class="container-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.8192153528735!2d121.01242011458868!3d14.552328589833193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c91243807c0b%3A0xcfb4b05313837249!2sMakati%20Square%2C%20Chino%20Roces%20Ave%2C%20Legazpi%20Village%2C%20Makati%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1642150442599!5m2!1sen!2sph" width="600" height="420" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+		</div>
+		<!-- end of Contact -->
+
+		<!-- Start of Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-dark">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#jumbotron">Home</a></li>
+                        <li><a href="#about-me">About</a></li>
+                        <li><a href="#my-projects">Projects</a></li>
+                        <li><a href="#contact-me">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 mt-2">
+                	<p class="p-3">Let's be internet BFFs!</p>
+                	<div class="d-flex flex-row justify-content-around align-items-center">
+                		<div>
+                			<a href="https://www.facebook.com/kkayroque" class="fa fa-facebook"></a>
+                		</div>
+                		<div>
+							<a href="https://twitter.com/_okaaaaayyy" class="fa fa-twitter"></a>
+						</div>
+						<div>
+							<a href="https://www.instagram.com/_okaaaaayyy/" class="fa fa-instagram"></a>
+						</div>
+						<div>
+							<a href="https://www.google.com/" class="fa fa-google"></a>
+						</div>
+						<div>
+							<a href="https://www.linkedin.com/in/kristine-kay-roque/" class="fa fa-linkedin"></a>
+						</div>
+					</div>
+                    <p class="mt-4 small text-muted mb-0">&copy; Copyrights. All rights reserved.				
+                </div>              
+            </div>
+        </div>
+    </footer>
+		<!-- End of Footer -->
 
 
 

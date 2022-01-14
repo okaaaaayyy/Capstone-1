@@ -1,4 +1,91 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar{
+	background-color: #7e2ee6;
+	padding: 0;!important;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #3E0F30;
+  border-color: #3E0F30;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #7e2ee6;
+    border-color: #7e2ee6;
+}
+
+#jumbotron{
+	background-color: #ffe3f9;
+	color: #3E0F30;
+	padding-top: %;
+}
+
+#about-me{
+	background-color: #fef15c;
+	color: 	#3E0F30;
+	padding-top: %;
+}
+
+#about-me h2{
+	background-color: #ffe3f9;
+	color: #7e2ee6;
+}
+
+#my-projects{
+	background-color: #fef15c;
+	color: #3E0F30;
+	padding-top: %;
+}
+
+#my-projects h2{
+	background-color: #ffe3f9;
+	color: 	#7e2ee6;
+}
+
+#contact-me{
+	background-color: #ff;
+	color: 	#3E0F30;
+	padding-top: %;
+}
+
+#contact-form{
+	background-color: #ffe3f9;
+	color: 	#3E0F30;
+	padding-top: %;
+}
+
+#footer{
+	background-color: #3E0F30;
+	color: 	#fff;
+	padding-top: %;
+}
+
+.row h5{
+	color: 	#3E0F30;
+}
+
+.row h3{
+	color: #7e2ee6;
+}
+
+.row h4{
+	color: #FD51B7;
 }
